@@ -54,7 +54,7 @@ import UIKit
         self.view.addSubview(photoView)
         
         return photoView
-        }()
+        }(())
     
     // MARK: - Life Cicle
     

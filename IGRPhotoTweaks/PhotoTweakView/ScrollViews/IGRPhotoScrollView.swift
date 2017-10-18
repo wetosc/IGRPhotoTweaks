@@ -111,7 +111,7 @@ import UIKit
         }
     }
     
-    final func stopUpdateContentOffset() {
+    @objc final func stopUpdateContentOffset() {
         if (isUpdatingContentOffset) {
             isUpdatingContentOffset = false
             updateDelegate?.scrollViewDidStopScrollUpdateContentOffset(self)
