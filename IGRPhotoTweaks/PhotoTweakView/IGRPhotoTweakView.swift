@@ -60,6 +60,9 @@ import UIKit
         self.originalSize = maxBounds.size
         
         let scrollView = IGRPhotoScrollView(frame: maxBounds)
+        if #available(iOS 11.0, *){
+            scrollView.contentInsetAdjustmentBehavior = .never
+        }
         scrollView.center = CGPoint(x: self.frame.width.half, y: self.centerY)
         scrollView.delegate = self
         self.addSubview(scrollView)

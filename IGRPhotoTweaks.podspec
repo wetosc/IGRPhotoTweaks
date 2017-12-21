@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name                = 'IGRPhotoTweaks'
   spec.version             = '1.0.7'
-  spec.platform            = :ios, '11.0'
+  spec.platform            = :ios, '10.0'
   
   spec.license             = { :type => "MIT", :file => "LICENSE" }
   spec.homepage            = 'https://github.com/IGRSoft/IGRPhotoTweaks'
